@@ -15,8 +15,7 @@ $(document).on('pagecreate', '#feedPage', function(event) {
 	xmlhttp.onreadystatechange = function() {
   	if (this.readyState == 4 && this.status == 200) {
   		var weather= JSON.parse(xmlhttp.responseText);
- 	 }
-	};
+ 	
 	
 	
 	
@@ -28,3 +27,5 @@ $(document).on('pagecreate', '#feedPage', function(event) {
 	});
 	
 });
+		 }
+	};
